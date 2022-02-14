@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/libraryArray/libs/algorithms/array/array.h
+stdio.h
+-
+assert.h
+-
+limits.h
+-
+stddef.h
+-
+
+D:/libraryArray/libs/data_structures/matrix/matrix.h
+
+D:/libraryArray/libs/data_structures/unordered_array_set/unordered_array_set.h
+stdint.h
+-
+assert.h
+-
+memory.h
+-
+stdio.h
+-
+stdbool.h
+-
+stdlib.h
+-
+../../algorithms/array/array.h
+D:/libraryArray/libs/algorithms/array/array.h
+
+D:/libraryArray/main.c
+assert.h
+-
+libs/data_structures/unordered_array_set/unordered_array_set.h
+D:/libraryArray/libs/data_structures/unordered_array_set/unordered_array_set.h
+libs/data_structures/matrix/matrix.h
+D:/libraryArray/libs/data_structures/matrix/matrix.h
+
